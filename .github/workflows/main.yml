@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'v*' # 监听以v开头的标签，例如v1.0.0
+  workflow_dispatch:
 
 jobs:
   build-windows:
